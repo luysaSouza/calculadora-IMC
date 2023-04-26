@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(52, 27, 80);
+    font: normal 1.3em Times;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background-color: white;
+    margin: auto;
+    padding: 15px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.315);
+}
+
+section div #txtAltura, #txtPeso{
+    padding: 8px;
+    font-size: 16px;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    outline: none; /* para quando selecionar o campo, nao adicionar nenhum estilo ou efeito */
+}
+
+section div p #button{
+    margin-left: 5px;
+    padding: 3px;
+    width: 285px;
+    height: 32px;
+    background-color: rgb(52, 27, 80);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgb(39, 20, 59);
+    outline: none;
+}
+
+section div img#imagemIMC{
+    max-width: 100%;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.637);    
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
